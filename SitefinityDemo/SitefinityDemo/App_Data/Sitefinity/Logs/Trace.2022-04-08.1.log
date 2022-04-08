@@ -1,0 +1,35 @@
+----------------------------------------
+Timestamp: 4/5/2022 9:39:54 AM
+
+Message: Scheduler: Task executed: 'Telerik.Sitefinity.ServiceHooks.Scheduling.ServiceHooksActivitiesCleanupTask'. Start time: 4/5/2022 9:39:54 AM. End time: 4/5/2022 9:39:54 AM. Task data: ''
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 4/5/2022 9:39:54 AM
+
+Message: Scheduler: Task executed: 'Telerik.Sitefinity.Services.Notifications.Scheduling.NotificationsCleanupTask'. Start time: 4/5/2022 9:39:54 AM. End time: 4/5/2022 9:39:54 AM. Task data: ''
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 4/5/2022 9:39:54 AM
+
+Message: Scheduler: Task executed: 'Telerik.Sitefinity.Versioning.Cleaner.VersioningCleanerTask'. Start time: 4/5/2022 9:39:54 AM. End time: 4/5/2022 9:39:54 AM. Task data: ''
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 4/5/2022 9:39:56 AM
+
+Message: Scheduler: Task executed: 'Telerik.Sitefinity.Lifecycle.Cleanup.TempItemsCleanupTask'. Start time: 4/5/2022 9:39:54 AM. End time: 4/5/2022 9:39:56 AM. Task data: ''
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 4/5/2022 9:39:58 AM
+
+Message: Scheduler: Task executed: 'Telerik.Sitefinity.UsageTracking.Scheduling.UsageTrackingTask'. Start time: 4/5/2022 9:39:54 AM. End time: 4/5/2022 9:39:58 AM. Task data: ''
+
+
+----------------------------------------

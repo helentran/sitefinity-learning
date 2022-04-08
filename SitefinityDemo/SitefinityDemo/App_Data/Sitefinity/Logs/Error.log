@@ -1,0 +1,61 @@
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 4/1/2022 3:42:21 AM
+
+Message: HandlingInstanceID: 352ce75d-4459-4881-acb2-fdabd173b42e
+An exception of type 'Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException' occurred and was caught.
+---------------------------------------------------------------------------------------------------------------------
+04/01/2022 12:42:20
+Type : Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException, Telerik.Sitefinity.Utilities, Version=14.1.7821.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : Unauthorized
+Source : Telerik.Sitefinity
+Help link : 
+StatusCode : Unauthorized
+StatusDescription : Unauthorized
+IsDetailXhtml : True
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void RequestAuthentication(System.Func`2[Telerik.Sitefinity.Security.SitefinityIdentity,System.Boolean])
+HResult : -2146233087
+detailWriterInstance : Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException+StringDetailWriter
+Stack Trace :    at Telerik.Sitefinity.Web.Services.ServiceUtility.RequestAuthentication(Func`2 isForbidden)
+   at Telerik.Sitefinity.Web.Services.ServiceUtility.RequestAuthentication(Boolean needAdminRights, Boolean demandBackendUser)
+   at Telerik.Sitefinity.Services.ServiceStack.Filters.RequestBackendAuthenticationFilterAttribute.Execute(IRequest req, IResponse res, Object requestDto)
+   at ServiceStack.RequestFilterAttribute.RequestFilter(IRequest req, IResponse res, Object requestDto) in C:\BuildAgent\work\3481147c480f4a2f\src\ServiceStack\RequestFilterAttribute.cs:line 28
+   at ServiceStack.Host.ServiceRunner`1.<ExecuteAsync>d__15.MoveNext() in C:\BuildAgent\work\3481147c480f4a2f\src\ServiceStack\Host\ServiceRunner.cs:line 126
+
+Additional Info:
+
+MachineName : VODKA
+TimeStamp : 4/1/2022 3:42:21 AM
+FullName : Telerik.Sitefinity.Utilities, Version=14.1.7821.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-8-132931929272859501
+ThreadIdentity : Anonymous
+WindowsIdentity : VODKA\Helen
+Requested URL : https://localhost:44303/RestApi/adminapp/log-webclient-error?sf_site=null
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: VODKA
+
+App Domain: /LM/W3SVC/2/ROOT-8-132931929272859501
+
+ProcessId: 6332
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:11448
+
+Extended Properties: 
+----------------------------------------
